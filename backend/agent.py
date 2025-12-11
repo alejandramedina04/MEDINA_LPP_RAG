@@ -86,8 +86,7 @@ class RAGAgent:
         # TO DO: Create the task
         task = Task(
             description = (
-                f"Answer this question about artificial intelligence using ONLY the retrieved passages from the RAG database:\n\n"
-                f"{question}"
+                f"Answer this question about artificial intelligence using ONLY the retrieved passages from the RAG database:{question}"
             ),
             agent = agent,
             expected_output = (
