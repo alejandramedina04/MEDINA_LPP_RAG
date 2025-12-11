@@ -91,7 +91,7 @@ class RAGAgent:
             ),
             agent = agent,
             expected_output = (
-                "Write the answer in plain text with this structure:\n\n"
+                "Write the answer in a string format with this structure:\n\n"
                 "Short answer:\n"
                 "- 1-3 sentences that directly and simply answer the question.\n\n"
                 "Details:\n"
