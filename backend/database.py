@@ -80,7 +80,7 @@ class RAGDatabase:
             
             # TO DO: Format results for the agent
             # Each result row is (text, similarity_score)
-            return ({"text":row[0], "similarity":float(row[1])} for row in results)
+            return [{"text":row[0], "similarity":float(row[1])} for row in results]
             
         except Exception as e:
             raise Exception(f"Database query failed: {str(e)}")
