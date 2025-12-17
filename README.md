@@ -132,7 +132,7 @@ You can use this assistant in two ways: through a hosted Streamlit app or by run
 
 ### 5.2 Option 2: Run the app locally from GitHub
 
-- Go to the GitHub repository: **[GitHub link – to be added]** and clone it to your machine using `git clone` or the GitHub "Clone" option.  
+- Go to the GitHub repository: **[[GitHub link – to be added](https://github.com/alejandramedina04/MEDINA_LPP_Rag/)]** and clone it to your machine using `git clone` or the GitHub "Clone" option.  
 - Open a terminal and move into the project folder (for example: `cd ai-rag-assistant`).  
 - Install the required Python packages with `pip install streamlit crewai duckdb openai`.  
 - Make sure the DuckDB file with the AI document collection (such as `backend/ai.duckdb`) is included in the repository or placed at the path specified in `config.py`.  
