@@ -21,6 +21,7 @@ The assistant focuses on the **benefits and risks of artificial intelligence**, 
 
 Information about AI is often scattered, overly technical, or framed as either hype or fear. It can be hard for non-experts to get clear, reliable explanations.  
 
+
 This assistant:
 - Queries a curated set of AI documents instead of the open internet.  
 - Generates clear, well-structured answers grounded in retrieved passages.  
