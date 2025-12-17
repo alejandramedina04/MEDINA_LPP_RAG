@@ -1,7 +1,6 @@
 # AI RAG Assistant: Explaining the Benefits and Risks of AI
 
 This project is an interactive Retrieval-Augmented Generation (RAG) assistant that answers questions about artificial intelligence. It uses:
-
 - A curated AI document collection stored in a DuckDB vector database.  
 - A CrewAI agent that retrieves relevant passages and generates answers.  
 - A Streamlit web app that provides a chat interface and shows answers plus sources.
@@ -15,15 +14,14 @@ The assistant relies only on these preselected AI sources and returns clear, str
 ### Domain
 
 The assistant focuses on the **benefits and risks of artificial intelligence**, especially:
-
 - How AI is used in research, education, and everyday life.  
 - How issues like bias, safety, and black-box systems affect trust and understanding.
 
 ### Problem this assistant addresses
 
 Information about AI is often scattered, overly technical, or framed as either hype or fear. It can be hard for non-experts to get clear, reliable explanations.  
-This assistant:
 
+This assistant:
 - Queries a curated set of AI documents instead of the open internet.  
 - Generates clear, well-structured answers grounded in retrieved passages.  
 - States when the sources do not provide enough information to fully answer a question.
@@ -57,13 +55,11 @@ This project has two main phases:
 ## 3. Document Collection Summary
 
 The assistant is powered by a vector database built from **18 curated sources** about artificial intelligence, including:
-
 - Academic PDFs and policy/ethics reports  
 - Web articles and plain-text reports  
 - Transcripts from YouTube talks and explainers  
 
 Across these sources, the collection covers:
-
 - How AI is used in research, education, and everyday life  
 - Benefits of AI (efficiency, new applications, decision support)  
 - Risks such as bias, safety issues, and hard-to-explain "black-box" models  
@@ -72,7 +68,6 @@ Across these sources, the collection covers:
 - Practical guidance on using AI tools and writing effective prompts  
 
 These documents were selected to give a **balanced view** of AI, combining technical, ethical, and practical perspectives. The goal is for the assistant’s answers to be:
-
 - Grounded in specific, trustworthy sources  
 - Clear about where information comes from  
 - Honest when the documents do not provide enough detail to fully answer a question  
@@ -86,7 +81,6 @@ The agent is configured so that users understand what it is good at, what it is 
 ### 4.1 Role – "Artificial Intelligence Content Assistant"
 
 The agent is a focused assistant for **questions about artificial intelligence**. It is designed to explain:
-
 - How AI is used  
 - What benefits it offers  
 - What risks it poses  
@@ -94,10 +88,9 @@ The agent is a focused assistant for **questions about artificial intelligence**
 
 It is **not** intended for general topics, so the best results come from questions about AI concepts, uses, risks, ethics, and social or policy impact.
 
-### 4.2 Goal – "Answer questions about artificial intelligence using the vector database."
+### 4.2 Goal – Answer questions about artificial intelligence using the vector database.
 
 The agent answers questions by:
-
 - Retrieving passages from a DuckDB vector database built from the 18 curated AI sources  
 - Using those passages to generate the response  
 
@@ -106,12 +99,10 @@ Its answers reflect this specific collection, not the entire internet. Each resp
 ### 4.3 Backstory – Expert using only curated sources and stating gaps
 
 The agent is framed as an AI expert whose knowledge comes **only** from the curated documents on AI’s uses, benefits, risks, black-box behavior, and ethics. It is instructed to:
-
 - Rely on retrieved passages, not guess or invent information  
 - Clearly state when the sources do not provide enough detail to fully answer a question  
 
 This configuration keeps the assistant:
-
 - Focused on the AI domain  
 - Grounded in the project’s document collection  
 - Transparent about the limits of what the sources can support  
