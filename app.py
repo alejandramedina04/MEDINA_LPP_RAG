@@ -18,8 +18,8 @@ import config
 # Page Configuration (must be first Streamlit command)
 # -----------------------------------------------------------------------------
 st.set_page_config(
-    page_title="AI RAG Assistant",
-    page_icon="📖",
+    page_title="AI Benefits and Risks Assistant",
+    page_icon="🤖",
     layout="wide"
 )
 
