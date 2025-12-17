@@ -124,7 +124,7 @@ You can use this assistant in two ways: through a hosted Streamlit app or by run
 
 ### 5.1 Option 1: Use the Streamlit web app (recommended)
 
-- Open the Streamlit app: **[Streamlit link – to be added]**.  
+- Open the Streamlit app: **[https://medinalpprag-o2xn47czh4ku5qhxy8vt4u.streamlit.app/]**.  
 - In the left sidebar, paste your OpenAI API key into the "OpenAI API Key" field.  
 - Keep the default settings for database path, results per query, model, and max tool calls, unless you know you want to change them.  
 - Type a question about artificial intelligence in the chat box and press Enter.  
